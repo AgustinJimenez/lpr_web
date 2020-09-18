@@ -1,0 +1,16 @@
+testing:
+
+1- En config/laravellocalization.php:
+'supportedLocales' => [
+    //'en' => ['name' => 'English', 'script' => 'Latn', 'native' => 'English'],
+    'es' => ['name' => 'Spanish', 'script' => 'Latn', 'native' => 'Spanish'],
+],
+'hideDefaultLocaleInURL' => true,
+
+2- En config/app.php
+'locale' => 'es',
+
+3- En config/stylish.php:
+'activate' => 'AdminLTE'
+
+4- Copiar el archivo: Themes/Flatly/views/layouts/account.blade.php a la carpeta Themes/Adminlte/views/layouts/

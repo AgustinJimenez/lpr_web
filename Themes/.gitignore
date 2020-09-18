@@ -1,0 +1,6 @@
+/*
+!.gitignore
+
+!Adminlte
+Adminlte/*
+!Adminlte/views

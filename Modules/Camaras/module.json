@@ -1,0 +1,17 @@
+{
+    "name": "Camaras",
+    "alias": "camaras",
+    "description": "",
+    "version": "v0.1",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Camaras\\Providers\\CamarasServiceProvider",
+        "Modules\\Camaras\\Providers\\RouteServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+      "macros.php"
+    ]
+}
